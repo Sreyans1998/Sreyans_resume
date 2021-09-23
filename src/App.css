@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-color: rgb(33,37,41)!important;
+}
+.bg{
+    background-image: url(./Images/Back.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+}
+.tamplate{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5%;
+    width:25%;
+    height: 35rem;
+    box-shadow: 0rem 0.5rem 1.5rem 1rem rgba(0, 0, 0, 0.6);
+}
+.my-h{
+    height:25rem
+}
+.my-shadow{
+    box-shadow: 0rem 0.5rem 1.5rem 1rem rgba(0, 0, 0, 0.6);
+}
+.table_format{
+    width:100%;
+}
+.w_90{
+    width: 90%!important;
+}
+.li-none{
+    list-style-type: none;
+}
+@media (max-width: 810px){
+    .bg-trans{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .test{
+        font-size: 12px!important;
+    }
+    .bg{
+        height:45rem!important;
+    }
+    .f-sm{
+        text-align: center;
+        justify-content: center!important;
+        display: flex;
+    }
+    .tamplate{
+        position: relative;
+        width:95%;
+        margin:0, 2.5%, 0, 5%;
+        padding: 0;
+        display: block;
+        float: none;
+    }
+}
